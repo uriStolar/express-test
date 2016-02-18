@@ -1,0 +1,27 @@
+{
+  "name": "expresssoup",
+  "version": "0.0.1",
+  "description": "ExpressJS SoupToBits project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uriStolar/express-test.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Mocha"
+  ],
+  "author": "Uri Stolar <mixtek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uriStolar/express-test/issues"
+  },
+  "homepage": "https://github.com/uriStolar/express-test#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
