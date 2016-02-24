@@ -11,7 +11,8 @@ The technologies used are the following:
 * [Mocha](https://github.com/mochajs/mocha)
 
 To run the tests simply `cd` into your project directory and run `npm test`.
-To try the live demo please check <https://obscure-dawn-76650.herokuapp.com>.
+
+To try a live demo please check <https://obscure-dawn-76650.herokuapp.com>.
 
 ---
 More to come
