@@ -12,5 +12,6 @@ The technologies used are the following:
 
 To run the tests simply `cd` into your project directory and run `npm test`.
 To try the live demo please check <https://obscure-dawn-76650.herokuapp.com>.
+
 ---
 More to come
