@@ -37,3 +37,23 @@ describe('Listing cities on /cities', function(done) {
   });
 });
 
+describe('Creating new cities', function(done){
+
+  it('Returns 201 status code', function(done){
+    request(app)
+      .post('/cities')
+      .send('name=Springfield&description=where+the+Simpsons+live')
+      .expect(201, done);
+  });
+
+  it('Adds the city and returns name', function(done){
+    request(app)
+      .post('/cities')
+      .send('name=Springfield&description=where+the+Simpsons+live')
+      .expect(/springfield/i, done);
+  });
+
+});
+
+
+
